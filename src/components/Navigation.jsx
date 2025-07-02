@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import SafeIcon from '../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
 
-const { FiCamera, FiTarget, FiTrendingUp, FiFileText, FiUsers, FiBarChart3, FiCheckSquare, FiSearch } = FiIcons;
+const { FiCamera, FiTarget, FiTrendingUp, FiFileText, FiUsers, FiBarChart3, FiCheckSquare, FiSearch, FiMonitor } = FiIcons;
 
 const Navigation = ({ sections, activeSection, setActiveSection }) => {
   const iconMap = {
@@ -13,6 +13,7 @@ const Navigation = ({ sections, activeSection, setActiveSection }) => {
     seo: FiTrendingUp,
     keywords: FiSearch,
     content: FiFileText,
+    platform: FiMonitor,
     growth: FiTrendingUp,
     metrics: FiBarChart3,
     action: FiCheckSquare
@@ -40,7 +41,7 @@ const Navigation = ({ sections, activeSection, setActiveSection }) => {
             <span className="text-white font-bold text-xl">Pose Photobooths</span>
           </div>
           
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-1">
             {sections.map(({ id, title }) => (
               <button
                 key={id}

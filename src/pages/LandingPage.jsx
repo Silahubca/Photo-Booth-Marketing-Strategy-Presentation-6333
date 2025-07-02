@@ -6,6 +6,7 @@ import CompetitiveAnalysis from '../components/CompetitiveAnalysis';
 import SEOStrategy from '../components/SEOStrategy';
 import KeywordResearch from '../components/KeywordResearch';
 import ContentStrategy from '../components/ContentStrategy';
+import PlatformAnalysis from '../components/PlatformAnalysis';
 import GrowthOpportunities from '../components/GrowthOpportunities';
 import Metrics from '../components/Metrics';
 import ActionPlan from '../components/ActionPlan';
@@ -21,6 +22,7 @@ const LandingPage = () => {
     { id: 'seo', title: 'SEO Strategy', component: SEOStrategy },
     { id: 'keywords', title: 'Keywords', component: KeywordResearch },
     { id: 'content', title: 'Content', component: ContentStrategy },
+    { id: 'platform', title: 'Platform', component: PlatformAnalysis },
     { id: 'growth', title: 'Growth', component: GrowthOpportunities },
     { id: 'metrics', title: 'Metrics', component: Metrics },
     { id: 'action', title: 'Action Plan', component: ActionPlan }
