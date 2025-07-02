@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import SafeIcon from '../common/SafeIcon';
 import * as FiIcons from 'react-icons/fi';
 
-const { FiCamera, FiTarget, FiTrendingUp, FiFileText, FiUsers, FiBarChart3, FiCheckSquare } = FiIcons;
+const { FiCamera, FiTarget, FiTrendingUp, FiFileText, FiUsers, FiBarChart3, FiCheckSquare, FiSearch } = FiIcons;
 
 const Navigation = ({ sections, activeSection, setActiveSection }) => {
   const iconMap = {
@@ -11,6 +11,7 @@ const Navigation = ({ sections, activeSection, setActiveSection }) => {
     business: FiTarget,
     competitive: FiUsers,
     seo: FiTrendingUp,
+    keywords: FiSearch,
     content: FiFileText,
     growth: FiTrendingUp,
     metrics: FiBarChart3,

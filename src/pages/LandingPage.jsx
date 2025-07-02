@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import BusinessOverview from '../components/BusinessOverview';
 import CompetitiveAnalysis from '../components/CompetitiveAnalysis';
 import SEOStrategy from '../components/SEOStrategy';
+import KeywordResearch from '../components/KeywordResearch';
 import ContentStrategy from '../components/ContentStrategy';
 import GrowthOpportunities from '../components/GrowthOpportunities';
 import Metrics from '../components/Metrics';
@@ -18,6 +19,7 @@ const LandingPage = () => {
     { id: 'business', title: 'Business', component: BusinessOverview },
     { id: 'competitive', title: 'Competition', component: CompetitiveAnalysis },
     { id: 'seo', title: 'SEO Strategy', component: SEOStrategy },
+    { id: 'keywords', title: 'Keywords', component: KeywordResearch },
     { id: 'content', title: 'Content', component: ContentStrategy },
     { id: 'growth', title: 'Growth', component: GrowthOpportunities },
     { id: 'metrics', title: 'Metrics', component: Metrics },
